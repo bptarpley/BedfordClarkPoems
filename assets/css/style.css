@@ -13,6 +13,11 @@ html {
     margin-right: auto;
 }
 
+.hanging-indent {
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
+
 #main-content {
     max-width: 80%;
     background-color: white;
