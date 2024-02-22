@@ -13,8 +13,8 @@ html {
     margin-right: auto;
 }
 
-#toc {
-    max-width: 50%;
+#main-content {
+    max-width: 80%;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
