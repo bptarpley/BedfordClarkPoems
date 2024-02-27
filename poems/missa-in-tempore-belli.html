@@ -4,11 +4,13 @@
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
-        <h1 class="centered-text">Missa in Tempore Belli</h1>
+        <div id="menu" class="centered-block"></div>
+        
+        <h1 class="centered-text">Missa in Tempore Belli<a id="fn-1-ref" href="#fn-1" class="footnote-link">1</a></h1>
 
         <div id="main-content" class="centered-block">
-            <div style="max-width: 400px; margin-left: auto; margin-right: auto;">
-                <p class="centered-text"><b>sursum corda</b></p>
+            <div style="max-width: 400px;" class="centered-block">
+                <p class="centered-text"><b>sursum corda</b><a id="fn-2-ref" href="#fn-2" class="footnote-link">2</a></p>
 
                 <p class="hanging-indent">
                     By noon the Mall awaits,<br />
@@ -64,8 +66,26 @@
                     we’re free to be what we shall be . . .  
                 </p>
 
-                <p class="centered-text"><b>miserere nobis</b></p>
+                <p class="centered-text"><b>miserere nobis</b><a id="fn-3-ref" href="#fn-3" class="footnote-link">3</a></p>
             </div>
         </div>
+
+        <div id="fn-1" class="footnote">
+            <a href="#fn-1-ref" class="footnote-link">1</a> "Mass in Time of War"
+        </div>
+        <div id="fn-2" class="footnote">
+            <a href="#fn-2-ref" class="footnote-link">2</a> "Lift up your hearts"
+        </div>
+        <div id="fn-3" class="footnote">
+            <a href="#fn-3-ref" class="footnote-link">3</a> "Have mercy on us"
+        </div>
+        <div class="footnote-end-spacer">&nbsp;</div>
+
+        <script src="../assets/js/table-of-contents.js"></script>
+        <script type="application/javascript">
+            window.onload = function() {
+                add_table_of_contents('menu', '../')
+            }
+        </script>
     </body>
 </html>

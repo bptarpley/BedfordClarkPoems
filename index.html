@@ -13,39 +13,15 @@
         <h2 class="centered-text">Table of Contents</h2>
 
         <div id="main-content" class="centered-block">
-            <ul>
-                <li>Author's Note</li>
-                <li>Description</li>
-                <li>
-                    Poems
-                    <ul>
-                        <li><a href="poems/st-john-fisher-bishop-and-martyr.html">St. John Fisher: Bishop and Martyr</a></li>
-                        <li><a href="poems/missa-in-tempore-belli.html">Missa in Tempore Belli</a></li>
-                        <li><a href="poems/fr-gustave-depreitere-recollects.html">Fr. Gustave Depreitere Recollects</a></li>
-                        <li><a href="poems/the-reluctant-thomist-teaches-phil-101.html">The Reluctant Thomist Teaches PHIL 101</a></li>
-                        <li><a href="poems/emeritus.html">Emeritus</a></li>
-                        <li><a href="poems/migration.html">Migration</a></li>
-                        <li><a href="poems/an-extraordinary-evening-in-enid.html">An Extraordinary Evening in Enid</a></li>
-                        <li><a href="poems/alexandrines.html">Alexandrines</a></li>
-                        <li><a href="poems/cremains.html">Cremains</a></li>
-                        <li><a href="poems/the-hidden-eye.html">The Hidden Eye</a></li>
-                        <li><a href="poems/their-last-pagan-easter.html">Their Last Pagan Easter</a></li>
-                        <li><a href="poems/a-cautionary-tale.html">A Cautionary Tale</a></li>
-                        <li><a href="poems/similitudes.html">Similitudes</a></li>
-                        <li><a href="poems/bonny-jean.html">Bonny Jean</a></li>
-                        <li><a href="poems/history-on-the-quad.html">History on the Quad</a></li>
-                        <li><a href="poems/summer-incident-1967.html">Summer Incident: 1967</a></li>
-                        <li><a href="poems/california-dreaming.html">California Dreaming</a></li>
-                        <li><a href="poems/our-little-uncle.html">Our Little Uncle</a></li>
-                        <li><a href="poems/unnatural-history.html">Unnatural History</a></li>
-                        <li><a href="poems/compensation.html">Compensation</a></li>
-                        <li><a href="poems/theme-in-want-of-variations.html">Theme in Want of Variations</a></li>
-                        <li><a href="poems/priest-to-penitent.html">Priest to Penitent</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div id="toc-container" class="centered-block" style="max-width: 400px;"></div>
         </div>
         <br />
         <br />
+        <script src="assets/js/table-of-contents.js"></script>
+        <script type="application/javascript">
+            window.onload = function() {
+                add_table_of_contents('toc-container', '')
+            }
+        </script>
     </body>
 </html>
