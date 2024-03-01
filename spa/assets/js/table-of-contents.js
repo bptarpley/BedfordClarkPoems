@@ -2,7 +2,6 @@ function add_table_of_contents(element_id, path_to_root) {
     document.getElementById(element_id).innerHTML = `
         <ul>
             <li id="home-link">Home</li>
-            <li><a href="spa">Español</a></li>
             <li>Author's Note</li>
             <li>Description</li>
             <li class="poem-list-container">
